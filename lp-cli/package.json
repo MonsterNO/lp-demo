@@ -1,0 +1,23 @@
+{
+  "name": "lp-cli",
+  "version": "1.0.0",
+  "description": "快速创建初始化项目命令行工具",
+  "bin": {
+    "lp-create-project": "bin/index.js"
+  },
+  "scripts": {
+    "test": "node bin/index.js create abc"
+  },
+  "author": "lingping",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.0.0",
+    "commander": "^9.5.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "9.1.0",
+    "inquirer": "8.0.0",
+    "log-symbols": "4.0.0",
+    "ora": "5.0.0",
+    "shelljs": "^0.8.5"
+  }
+}
